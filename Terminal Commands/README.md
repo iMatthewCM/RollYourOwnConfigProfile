@@ -1,4 +1,4 @@
-#Terminal Commands
+# Terminal Commands
 
 Three separate commands are needed during this process:
 
