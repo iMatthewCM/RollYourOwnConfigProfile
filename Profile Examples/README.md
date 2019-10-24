@@ -1,4 +1,4 @@
-#Profile Examples
+# Profile Examples
 
 Here is the before and after for both profiles used during my presentation.
 
