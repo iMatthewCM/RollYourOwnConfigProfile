@@ -14,7 +14,7 @@ This folder contains the before-and-after .mobileconfig files that were used dur
 This folder contains the commands that I ran in Terminal to remove the signature from downloaded profiles, create a CSR and Private Key, and signing a modifying profile.
 
 
---
+---
 
 **Other Links**
 
