@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>7350CE2F-9E82-4A9B-818D-8EAB5A576227</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>Jamf Training</string>
+    <key>PayloadIdentifier</key>
+    <string>7350CE2F-9E82-4A9B-818D-8EAB5A576227</string>
+    <key>PayloadDisplayName</key>
+    <string>FileVault Settings</string>
+    <key>PayloadDescription</key>
+    <string/>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>59EAC55F-5E9E-4408-A702-93E0B36DE215</string>
+        <key>PayloadType</key>
+        <string>com.apple.MCX</string>
+        <key>PayloadOrganization</key>
+        <string>Jamf Training</string>
+        <key>PayloadIdentifier</key>
+        <string>59EAC55F-5E9E-4408-A702-93E0B36DE215</string>
+        <key>PayloadDisplayName</key>
+        <string>MCX</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>DestroyFVKeyOnStandby</key>
+        <false/>
+        <key>dontAllowFDEDisable</key>
+        <true/>
+      </dict>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>875906D9-F845-4842-9A03-060F42220000</string>
+        <key>PayloadType</key>
+        <string>com.apple.MCX.FileVault2</string>
+        <key>PayloadOrganization</key>
+        <string>Jamf Training</string>
+        <key>PayloadIdentifier</key>
+        <string>875906D9-F845-4842-9A03-060F42220000</string>
+        <key>PayloadDisplayName</key>
+        <string>SecurityFileVault2</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Enable</key>
+        <string>On</string>
+        <key>Defer</key>
+        <true/>
+        <key>UseRecoveryKey</key>
+        <true/>
+        <key>UserEntersMissingInfo</key>
+        <false/>
+        <key>UseKeychain</key>
+        <false/>
+        <key>PayloadCertificateUUID</key>
+        <string/>
+      </dict>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>DB4A4B56-5091-4F3B-B7DA-BAAC711D9841</string>
+        <key>PayloadType</key>
+        <string>com.apple.security.FDERecoveryKeyEscrow</string>
+        <key>PayloadOrganization</key>
+        <string>Jamf Training</string>
+        <key>PayloadIdentifier</key>
+        <string>DB4A4B56-5091-4F3B-B7DA-BAAC711D9841</string>
+        <key>PayloadDisplayName</key>
+        <string>FileVault Recovery Key Escrow</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Location</key>
+        <string>This information will be sent to, and kept safe by, the IT department.</string>
+        <key>EncryptCertPayloadUUID</key>
+        <string>515851b2-9b26-4739-9801-0675a7584316</string>
+      </dict>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>515851b2-9b26-4739-9801-0675a7584316</string>
+        <key>PayloadType</key>
+        <string>com.apple.security.pkcs1</string>
+        <key>PayloadOrganization</key>
+        <string>Jamf Training</string>
+        <key>PayloadIdentifier</key>
+        <string>1241C11E-31E4-47F3-BDCF-1B6A528E206B</string>
+        <key>PayloadDisplayName</key>
+        <string>JSS FileVault Recovery Key Escrow Certificate</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadCertificateFileName</key>
+        <string>FileVault2Comm.cer</string>
+        <key>PayloadContent</key>
+<data>MIIDtTCCAp2gAwIBAgIFAM6x2I0wDQYJKoZIhvcNAQELBQAwNzE1MDMGA1UEAxMsTU1pdGNoZWxsIEpTUyBCdWlsdC1pbiBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkwHhcNMTgxMTEwMjAyNDUyWhcNMjMxMTEyMjAyNDUyWjBEMRcwFQYDVQQLEw5GSUxFVkFVTFQyQ09NTTEpMCcGA1UEAxMgSlNTIEJ1aWx0LUluIFNpZ25pbmcgQ2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCM4tkehfKdJ0p+k8UOBzyJgWFcFDOaOMkgR5E4tc3nFKek54b2OtKRrU5Hs4/TlSSJ2j3h63S3ZawaJkbfQerMbVo07Enpvjoc7R6HoYWS95wb4U56ObsRx1HdnoMm75IsIlH+g+0lGk+P4wDK3nhgg98jXW3eZCvJ08/vIpHzoi+KhEKiwdNiJRiHUGbDZTcelTWTPtBJQsoXptZMfUa7eGysFrHenaJPNg0a42B+Ln03sjunCG8+HObHklkqgM3vkTQV9dWrQrsg4ftW0YR1Ecu6S7DOgUrY0wgxa+zxLUEL6EGWO4oaN/quvSZie1Oza0NJ8xAnsOvIx806j0dNAgMBAAGjgbowgbcwHQYDVR0OBBYEFBbYmkZZtDWXOwQy8TitMwjhTuzWMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwEB/wQEAwIBpjAMBgNVHRMBAf8EAjAAMEIGA1UdHwQ7MDkwN6A1oDOGMWh0dHBzOi8vbW1pdGNoZWxsLmphbWZjbG91ZC5jb20vQ0EvSkFNRkNSTFNlcnZsZXQwHwYDVR0jBBgwFoAU7HuAyIn3dzOA+i+6H/mQTE4JdyAwDQYJKoZIhvcNAQELBQADggEBADm/yEb4hB9VsVzRS1nXwuxf3ukj77rgFhfqdpTWK4Q97RePWf8AsGsBDMRZbjT30/yDULDzrKzhkS7Hzd4INiNJcnfDgIsqCT32HueHaM5EklPXPK+ZagOEdN53hEZr6AdE7nWT7LBEdVqnFvAvaR/6JZkGA7JxfZMkB4EnSs6/ETg5deC7yR6QpogIlIAXh6Cu6ZiSebp3aMMPuNLowd7UbAudZFTHpHSiHTI9fz7k60feT9hDEPrvIFb8RPZL3mMkIsCPOJp0VqehO5ezt04BwTPummIcKmefuSUb5fNgIk2hGl/824xU8dzLjOHuZAKbKfE/DqpW7xKp2fhzRzY=</data>
+        <key>AllowAllAppsAccess</key>
+        <false/>
+      </dict>
+    </array>
+  </dict>
+</plist>
