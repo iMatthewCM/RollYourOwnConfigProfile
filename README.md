@@ -1,5 +1,5 @@
 # Roll-Your-Own Configuration Profiles
-Resources for my "Roll-Your-Own Configuration Profiles" presentation at JNUC 2019
+Resources for my ["Roll-Your-Own Configuration Profiles" presentation at JNUC 2019](https://www.youtube.com/watch?v=tqF4ls823ig)
 
 ## [Bash Profile](https://github.com/iMatthewCM/RollYourOwnConfigProfile/tree/master/Bash%20Profile)
 
@@ -17,6 +17,8 @@ This folder contains the commands that I ran in Terminal to remove the signature
 ---
 
 **Other Links**
+
+JNUC Presentation: [https://www.youtube.com/watch?v=tqF4ls823ig](https://www.youtube.com/watch?v=tqF4ls823ig)
 
 Jamf Scripts: [https://github.com/iMatthewCM/Jamf-Scripts](https://github.com/iMatthewCM/Jamf-Scripts)
 
